@@ -1,0 +1,12 @@
+[Project]
+FileName=D:\WEB\web-2025\LW3\Parametr\PrintHTTPParametr.dp
+Name=PrintHTTPParametr
+MainUnit=D:\WEB\web-2025\LW3\Parametr\WorkWithQueryString.pas
+UnitCount=1
+ResFiles=
+NoConsole=0
+IsDll=0
+Icon=C:\dev_gpc\Icon\Mainicon.ico
+[Unit1]
+FileName=D:\WEB\web-2025\LW3\Parametr\WorkWithQueryString.pas
+FileTime=1515680391
