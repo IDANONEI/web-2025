@@ -18,21 +18,16 @@
 
     <?php
     include 'template.php';
-
-    // Загружаем данные
     $postsData = file_get_contents('../data/post.json');
     $posts = json_decode($postsData, true);
-
     $usersData = file_get_contents('../data/users.json');
     $usersList = json_decode($usersData, true);
 
-    // Получаем user_id из URL
     $userId = (isset($_GET['user_id']) && ctype_digit($_GET['user_id']))
         ? intval($_GET['user_id'])
         : null;
 
     $users_data = null;
-
     if ($userId !== null) {
         foreach ($usersList as $user) {
             if ($user['user_id'] == $userId) {
