@@ -1,0 +1,48 @@
+
+.profile_picture {
+    width: 123px; 
+    height: 123px;
+    border-radius: 16px;
+}
+
+.galary_picture {
+    width: 200px; 
+    height: 200px;
+}
+
+.name_text {
+    font-family: "Golos UI", sans-serif;
+    color: #222222; 
+    font-weight: 500; 
+    font-size: 32px; 
+    line-height: 32px; 
+    letter-spacing: -0.25px; 
+    margin: 20px 0px 10px 0px;
+    width: 361px; 
+    height: 36px;
+}
+
+.about_profile {
+    font-family: "Golos UI", sans-serif;
+    color: #222222; 
+    font-weight: 400; 
+    font-size: 15px; 
+    line-height: 18px; 
+    letter-spacing: -0.15px; 
+}
+
+.button_custom {
+    width: 68px;
+    height: 30px; 
+    padding: 0px 0px; 
+    background-color: rgba(34, 34, 34, 0.05);
+    border-radius: 8px;
+    border: none;
+    font-family: "Golos UI", sans-serif;  
+    color: #222222; 
+    font-size: 15px; 
+    font-weight: 400;
+    letter-spacing: -0.15px;  
+
+    cursor: pointer;
+}

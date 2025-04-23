@@ -1,0 +1,52 @@
+[
+  {
+    "user_id": 2,
+    "mail": "vanya.denisov@example.com",
+    "password": "123",
+    "first_name": "Ваня",
+    "last_name": "Денисов",
+    "profile_image": "../data/1/profile_image.png",
+    "about": "Привет! Я системный аналитик в ACME :) Тут моя жизнь только для самых классных!",
+    "time_create": 1672531199
+  },
+  {
+    "user_id": 2,
+    "mail": "liza.demina@example.com",
+    "password": "4321",
+    "first_name": "Лиза",
+    "last_name": "Дёмина",
+    "profile_image": "../data/2/profile_image.png",
+    "about": "))",
+    "time_create": 1672531199
+  },
+  {
+    "user_id": 3,
+    "mail": "ilya.korolev@example.com",
+    "password": "qwerty",
+    "first_name": "Илья",
+    "last_name": "Королёв",
+    "profile_image": "../data/3/profile_image.png",
+    "about": "Фотографирую жизнь такой, какая она есть. Пейзажи, люди, уличные сцены.",
+    "time_create": 1672532222
+  },
+  {
+    "user_id": 4,
+    "mail": "katya.sun@example.com",
+    "password": "sunshine",
+    "first_name": "Катя",
+    "last_name": "Сысоева",
+    "profile_image": "../data/4/profile_image.png",
+    "about": "Пишу, читаю, путешествую. Мечтаю написать свою книгу.",
+    "time_create": 1672533333
+  },
+  {
+    "user_id": 5,
+    "mail": "anton.rock@example.com",
+    "password": "rockon",
+    "first_name": "Антон",
+    "last_name": "Кашин",
+    "profile_image": "../data/5/profile_image.png",
+    "about": "Музыкант. Рок навсегда в сердце 🤘",
+    "time_create": 1672534444
+  }
+]

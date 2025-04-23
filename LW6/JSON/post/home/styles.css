@@ -1,0 +1,117 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.island_menu{
+    width: 40px; 
+    height: 190px;
+    padding: 40px 16px 0px 16px;
+    border-right: 1px solid rgba(34, 34, 34, 0.05); 
+}
+
+.island_item{
+    padding: 8px;
+    margin: 16px 0px 0px 0px;
+}
+
+.head_post {
+    width: 474px; 
+    height: 32px;
+    margin: 16px 0px;
+}
+
+.profile_picture {
+    width: 32px; 
+    height: 32px;
+    border-radius: 6px;
+    vertical-align: middle;
+    padding: 0px;
+}
+
+.edit_post {
+    width: 24px; 
+    height: 24px;
+    vertical-align: middle;
+    padding: 0px;
+}
+
+.name_text {
+    font-family: "Golos UI", sans-serif;
+    color: #222222; 
+    font-weight: 500; 
+    font-size: 14px; 
+    line-height: 18px; 
+    letter-spacing: -0.15px;
+    padding: 0px 310px 0px 10px;
+    width: 90px;
+}
+
+.name_container {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.like_container {
+    margin: 16px 0px;
+    width: fit-content;
+}
+
+.like_count {
+    font-family: "Golos UI", sans-serif;
+    color: #222222; 
+    width: fit-content;
+    font-weight: 400; 
+    font-size: 15px; 
+    line-height: 18px; 
+    letter-spacing: -0.15px;
+}
+
+.post_photo {
+    width: 474px; 
+    height: 474px;
+    padding: 0px;
+}
+
+.post {
+    width: 474px; 
+    height: 700px;
+    padding: 0px;
+    margin: auto;
+}
+.description_post {
+    font-family: "Golos UI", sans-serif;
+    color: #222222; 
+    font-weight: 400; 
+    font-size: 15px; 
+    line-height: 18px; 
+    letter-spacing: -0.15px;
+    margin: 0px 0px 16px 0px;  
+}
+
+.like {
+    width: 68px;
+    height: 30px; 
+    padding: 0px 0px; 
+    background-color: rgba(34, 34, 34, 0.05);
+    border-radius: 8px;
+    border: none;
+    font-family: "Golos UI";  
+    color: #222222; 
+    font-size: 15px; 
+    font-weight: 400;
+    letter-spacing: -0.15px;  
+
+    cursor: pointer;
+}
+
+.information_post {
+    font-family: "Golos UI", sans-serif;
+    color: rgba(34, 34, 34, 0.5); 
+    font-weight: 400; 
+    font-size: 14px; 
+    line-height: 18px; 
+    letter-spacing: -0.15px;
+    margin: 0px 0px 20px 0px; 
+}

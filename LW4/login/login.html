@@ -3,17 +3,24 @@
 
 <head>
     <title>Логин</title>
+    <meta charset="UTF-8">
+    <link href="styles/font.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <h1>Войти</h1>
-    <img src="images/login_photo.png" alt="Фото профиля">
-    <p>Электропочта</p>
-    <input type="text" name="Электропочта" placeholder="Введите почту">
-    <p>Введите электропочту</p>
-    <p>Пароль</p>
-    <input type="password" name="Пароль" placeholder="Введите пароль">
-    <button>Продолжить</button>
+    <div class="content">
+        <h1 class="title">Войти</h1>
+        <img class="images" src="images/login_photo.png" title="Войти" alt="Войти">
+        <form class="form">
+            <label class="label" for="email">Электропочта</label>
+            <input id="email" type="email" class="input" placeholder="Введите почту">
+            <span class="input_hint">Введите электропочту в формате *****@***.**</span>
+            <label class="label" for="password">Пароль</label>
+            <input id="password" type="password" class="input image_input" placeholder="Введите пароль">
+            <input type="submit" class="button" value="Продолжить">
+        </form>
+    </div>
 </body>
 
 </html>

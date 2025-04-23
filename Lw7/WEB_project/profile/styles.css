@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.island_menu {
+    width: 72px;
+    height: 240px;
+    padding: 24px 16px 0px 16px;
+    border-right: 1px solid rgba(34, 34, 34, 0.05); 
+}
+
+.island_item {
+    padding: 8px;
+    margin: 16px 0px;
+}
+
+.container_header {
+    width: 361px;
+    height: 315px;
+    margin: auto;
+}
+
+.container_image {
+    width: 620px;
+    margin: auto;
+}
+
+.profile_picture {
+    width: 123px;
+    height: 123px;
+    border-radius: 16px;
+    margin: 0px 119px;
+}
+
+.galary_picture {
+    width: 200px;
+    height: 200px;
+    /*margin: 2.48px;
+    display: flex;*/
+}
+
+.name_text {
+    font-family: "Golos UI", sans-serif;
+    color: #222222;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -0.25px;
+    margin: 20px 0px 10px 0px;
+    width: 361px;
+    height: 36px;
+    text-align: center;
+}
+
+.about_profile {
+    font-family: "Golos UI", sans-serif;
+    color: #222222;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    width: 361px;
+    height: 36px;
+    text-align: center;
+}
+
+.gallery_container {
+    font-family: "Golos UI", sans-serif;
+    color: #222222;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    width: 101px;
+    height: 30px;
+    padding: 0px 0px;
+    background-color: rgba(34, 34, 34, 0.05);
+    border-radius: 8px;
+    padding: 6px 10px;
+    margin: 12px 130px 42px 130px;
+}

@@ -1,0 +1,104 @@
+
+* 
+{
+    box-sizing: border-box;
+}
+
+.title {
+    font-family: "Golos UI", sans-serif;
+    color: #222222; 
+    font-weight: 700; 
+    font-size: 140px; 
+    line-height: 180px; 
+    letter-spacing: -1.5px; 
+}
+
+.image {
+    max-width: 100%;
+}
+
+.form {
+    max-width: 343px;
+}
+
+.label {
+    display: block;
+    font-family: "Golos UI", sans-serif;
+    color: #222222;  
+    font-weight: 400; 
+    font-size: 15px; 
+    line-height: 18px; 
+    letter-spacing: -0.15px; 
+    margin-bottom: 5px; 
+}
+
+.input {
+    display: block;
+    width: 343px; /*343-12*2 319*/
+    height: 44px; /*44-13*2 18*/
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 13px 12px;
+    background-color: #F2F3F5;
+    border: 1px solid #F2F3F5;
+    margin-bottom: 5px;
+    outline: none;
+
+}
+
+.image_input {
+    background-image: url('images/eye_off.svg');
+    background-repeat: no-repeat;
+    background-position: right 10px center; 
+    background-size: 20px;    
+}
+
+
+.input:focus {
+    border: 1px solid #3F8AE0;
+}
+
+.input-error {
+    border: 1px solid #E64646
+}
+
+.input_hint {
+    display: block;
+    font-family: "Golos UI", sans-serif;
+    color: #808080;  
+    font-weight: 400; 
+    font-size: 13px; 
+    line-height: 16px; 
+    letter-spacing: -0.15px;
+    margin-bottom: 16px;
+
+}
+
+.input-info-error {
+    color: #E64646;
+}
+
+.button {
+    display: block;
+    width: 343px;
+    height: 48px; 
+    padding: 0px 20px; 
+    background-color: #222222;
+    border-radius: 10px;
+    /*border: none;*/
+    font-family: "Golos UI", sans-serif;  
+    color: #FFFFFF; 
+    font-size: 16px; 
+    font-weight: 500; 
+    margin-top: 32px; /*32-5*/
+    cursor: pointer;
+}
+
+.button:focus {
+    border: 2px solid #3F8AE0;
+}
+
+.button:disabled {
+    border: 2px solid #B4B4B4;
+    background-color: #B4B4B4;
+}
